@@ -44,7 +44,8 @@ def all_depts_join
   # Use a different JOIN so that all departments are listed.
   # NB: you can avoid RIGHT OUTER JOIN (and just use LEFT) by swapping
   # the FROM and JOIN tables.
-  execute(<<-SQL) 
+  execute(<<-SQL)
+  
   SQL
 end
 
